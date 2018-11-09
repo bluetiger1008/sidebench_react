@@ -3,6 +3,9 @@ export default {
     fountainBlue: "#4AAFB7",
     halfBaked: "#79C4CA",
     silverChalice: "#AAAAAA",
-    desertStorm: "#EAEAE9"
+    desertStorm: "#EAEAE9",
+    gallery: "#EBEBEB",
+    silver: "#cccccc",
+    emperor: "#4E4B4C"
   }
 };
