@@ -6,6 +6,8 @@ export default {
     desertStorm: "#EAEAE9",
     gallery: "#EBEBEB",
     silver: "#cccccc",
-    emperor: "#4E4B4C"
+    emperor: "#4E4B4C",
+    corduroy: "#546566",
+    mystic: "#ebf2f2"
   }
 };

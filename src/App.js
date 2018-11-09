@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { createGlobalStyle } from "styled-components";
 
-import { FlexUtils } from "./styles/flexUtils";
+import FlexUtils from "./styles/flexUtils";
+import AppContainer from "./styles/app.style";
 import Navbar from "./components/navbar";
 import { Notification } from "./components/common";
-import logo from "./logo.svg";
+import ChatRoom from "./components/chatRoom";
 import "./App.css";
 
 const GlobalStyle = createGlobalStyle`${FlexUtils}`;
@@ -12,11 +13,12 @@ const GlobalStyle = createGlobalStyle`${FlexUtils}`;
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <AppContainer>
         <Navbar />
         <Notification />
+        <ChatRoom />
         <GlobalStyle />
-      </div>
+      </AppContainer>
     );
   }
 }

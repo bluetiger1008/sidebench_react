@@ -1,4 +1,4 @@
-export const FlexUtils = `
+const FlexUtils = `
   .d-flex {
     display: flex;
     
@@ -11,3 +11,5 @@ export const FlexUtils = `
     }
   }
 `;
+
+export default FlexUtils;
