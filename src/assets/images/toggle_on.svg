@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="toggle-on" viewBox="0 0 50 40">
+    <defs>
+        <style>
+            .cls-1,.cls-2{stroke:#5db0b7;stroke-miterlimit:10;stroke-width:2px;fill-rule:evenodd}.cls-1{fill-opacity:.3;stroke-opacity:.45;fill:#fff}.cls-2{fill:url(#linear-gradient)}
+        </style>
+        <linearGradient id="linear-gradient" x1="33.11" x2="33.11" y1="7.8" y2="29.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#afd9d6"/>
+            <stop offset=".25" stop-color="#acd7d5"/>
+            <stop offset=".46" stop-color="#a1d2d1"/>
+            <stop offset=".66" stop-color="#8fc9ca"/>
+            <stop offset=".85" stop-color="#77bdc1"/>
+            <stop offset="1" stop-color="#5db0b7"/>
+        </linearGradient>
+    </defs>
+    <path d="M32.27 31H17.13A11.86 11.86 0 0 1 5.4 19 11.86 11.86 0 0 1 17.13 7h15.14A11.86 11.86 0 0 1 44 19a11.86 11.86 0 0 1-11.73 12z" class="cls-1"/>
+    <path d="M33.11 29.8A11 11 0 1 1 44 18.8a10.94 10.94 0 0 1-10.89 11z" class="cls-2"/>
+</svg>

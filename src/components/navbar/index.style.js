@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  background-color: ${props => props.theme.fountainBlue};
+  display: flex;
+`;
+
+export const MainNavBar = styled.div`
+  background-color: ${props => props.theme.colors.fountainBlue};
   width: 80px;
   height: 100vh;
   position: relative;
@@ -17,7 +21,7 @@ export const NavButton = styled.button`
 
   &:hover,
   &.active {
-    background-color: ${props => props.theme.halfBaked};
+    background-color: ${props => props.theme.colors.halfBaked};
   }
 
   &.btn-logout {
