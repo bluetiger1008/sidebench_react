@@ -23,7 +23,7 @@ const ChatRoomContainer = styled.div`
 
   .room-content {
     height: calc(100vh - 124px);
-    overflow: scroll;
+    overflow: auto;
 
     .wrapper {
       padding: 21px 32px;
