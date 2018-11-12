@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const NotificationContainer = styled.div`
   position: fixed;
+  z-index: 99;
   top: 24px;
   right: 21px;
   background-color: ${props => props.theme.colors.gallery};

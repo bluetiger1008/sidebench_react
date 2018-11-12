@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const ChatRoomContainer = styled.div`
   flex-grow: 1;
+  position: relative;
 
   .room-header {
     background-color: ${props => props.theme.colors.fountainBlue};
@@ -76,6 +77,61 @@ const ChatRoomContainer = styled.div`
         }
       }
     }
+  }
+
+  .room-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 13px;
+
+    button {
+      outline: none;
+    }
+
+    .btn-plus {
+      width: 35px;
+      height: 35px;
+      background-color: white;
+      border-radius: 50%;
+      font-size: 32px;
+      line-height: 35px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    input {
+      height: 35px;
+      border-radius: 10px;
+      flex-grow: 1;
+      border: none;
+      padding: 0 15px;
+      outline: none;
+    }
+
+    .btn-send {
+      margin-left: 13px;
+    }
+  }
+`;
+
+export const DateBoxWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 11px;
+    color: white;
+    background-color: ${props => props.theme.colors.quillGray};
+    padding: 4px 15px;
+    border-radius: 9px;
   }
 `;
 

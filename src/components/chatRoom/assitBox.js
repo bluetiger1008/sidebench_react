@@ -4,13 +4,10 @@ import MessageBoxContainer from "./styles/messageBox.style";
 
 class AssistBox extends Component {
   render() {
-    const { answer } = this.props;
+    const { answer, person, viewedBy, viewedTime } = this.props;
 
     return (
-      <MessageBoxContainer
-        position={answer ? "right" : "left"}
-        className="assistBox"
-      >
+      <MessageBoxContainer className={`assistBox ${answer ? "right" : "left"}`}>
         <div className={`message-box ${answer ? "right" : "left"}`}>
           <p>Daily grooming assistance</p>
           <p>
@@ -21,6 +18,15 @@ class AssistBox extends Component {
             dressing
           </p>
           <button>Accept</button>
+        </div>
+        <div className="message-info">
+          <div className="message-person">
+            <img src={person} alt="message person" />
+          </div>
+          <div className="viewed-by">
+            <p>{viewedBy}</p>
+            <p>{viewedTime}</p>
+          </div>
         </div>
       </MessageBoxContainer>
     );

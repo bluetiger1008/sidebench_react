@@ -8,6 +8,7 @@ export default {
     silver: "#cccccc",
     emperor: "#4E4B4C",
     corduroy: "#546566",
-    mystic: "#ebf2f2"
+    mystic: "#ebf2f2",
+    quillGray: "#CFCFCC"
   }
 };
