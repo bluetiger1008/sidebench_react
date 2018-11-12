@@ -18,8 +18,8 @@ class MessageBox extends Component {
             <img src={person} alt="message person" />
           </div>
           <div className="viewed-by">
-            <p>{viewedBy}</p>
-            <p>{viewedTime}</p>
+            <p className="name">{viewedBy}</p>
+            <p className="time">{viewedTime}</p>
           </div>
         </div>
       </MessageBoxContainer>

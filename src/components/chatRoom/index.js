@@ -61,7 +61,7 @@ class ChatRoom extends Component {
           </a>
         </div>
 
-        {/* <div className="disabled-background" /> */}
+        <div className="disabled-background" />
       </ChatRoomContainer>
     );
   }

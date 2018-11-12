@@ -9,6 +9,9 @@ export default {
     emperor: "#4E4B4C",
     corduroy: "#546566",
     mystic: "#ebf2f2",
-    quillGray: "#CFCFCC"
+    quillGray: "#CFCFCC",
+    tundora: "#4d4d4d",
+    doveGray: "#666666",
+    coralTree: "#AA6666"
   }
 };

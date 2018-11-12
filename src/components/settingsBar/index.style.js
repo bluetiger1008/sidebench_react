@@ -43,6 +43,7 @@ export const SidebarBody = styled.div`
         text-transform: uppercase;
         font-size: 14px;
         line-height: 20px;
+        color: ${props => props.theme.colors.corduroy};
       }
     }
 
@@ -57,10 +58,15 @@ export const SidebarBody = styled.div`
         border-bottom: 3px solid ${props => props.theme.colors.desertStorm};
         font-size: 16px;
         line-height: 35px;
+        font-family: "Gotham Book";
 
         a {
           color: ${props => props.theme.colors.fountainBlue};
           text-decoration: none;
+        }
+
+        p {
+          color: ${props => props.theme.colors.tundora};
         }
       }
     }

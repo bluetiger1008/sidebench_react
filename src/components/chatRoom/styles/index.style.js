@@ -11,6 +11,7 @@ const ChatRoomContainer = styled.div`
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 98;
   }
 
   .room-header {
@@ -31,6 +32,8 @@ const ChatRoomContainer = styled.div`
         width: 702px;
         border-radius: 17px;
         position: relative;
+        font-family: "Gotham Book";
+        font-size: 13px;
 
         .wrapper {
           padding: 15px 25px;
@@ -124,6 +127,8 @@ const ChatRoomContainer = styled.div`
       line-height: 35px;
       text-align: center;
       margin-right: 10px;
+      font-family: "Gotham Book";
+      color: ${props => props.theme.colors.doveGray};
     }
 
     input {
@@ -133,6 +138,7 @@ const ChatRoomContainer = styled.div`
       border: none;
       padding: 0 15px;
       outline: none;
+      font-size: 17px;
     }
 
     .btn-send {

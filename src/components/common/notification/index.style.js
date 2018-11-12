@@ -16,14 +16,26 @@ const NotificationContainer = styled.div`
     display: flex;
     align-items: center;
     border-right: 1px solid ${props => props.theme.colors.silver};
-    margin-left: 9px;
+    padding-left: 9px;
+
+    .info {
+      padding-left: 9px;
+    }
 
     p {
       margin: 0;
       font-size: 14px;
+      font-family: "Gotham Book";
+      color: ${props => props.theme.colors.emperor};
 
       &.title {
         font-size: 16px;
+        font-family: "Gotham Medium";
+      }
+
+      &.sub-title {
+        font-size: 14px;
+        font-family: "Gotham Medium";
       }
     }
 
@@ -41,6 +53,9 @@ const NotificationContainer = styled.div`
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      color: ${props => props.theme.colors.emperor};
+      font-size: 16px;
+      font-family: "Gotham Medium";
 
       &.btn-close {
         border-bottom: 1px solid ${props => props.theme.colors.silver};

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import NotificationContainer from "./index.style";
-import logo from "../../../assets/images/care_3_logo.svg";
+import logo from "../../../assets/images/care_3_logo.png";
 
 class Notification extends Component {
   render() {
