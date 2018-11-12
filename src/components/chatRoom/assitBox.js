@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { MdAccessTime, MdAssignment } from "react-icons/md";
 
 import MessageBoxContainer from "./styles/messageBox.style";
 
@@ -11,9 +12,11 @@ class AssistBox extends Component {
         <div className={`message-box ${answer ? "right" : "left"}`}>
           <p>Daily grooming assistance</p>
           <p>
+            <MdAccessTime />
             Dec 1 <br /> Daily
           </p>
           <p>
+            <MdAssignment />
             assist with daily grooming activities such as bathing, teeth, hair,
             dressing
           </p>

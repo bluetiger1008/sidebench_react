@@ -9,7 +9,9 @@ class MessageBox extends Component {
     return (
       <MessageBoxContainer className={`${answer ? "right" : "left"}`}>
         <div className={`message-box ${answer ? "right" : "left"}`}>
-          <p>{message}</p>
+          <div className="wrapper">
+            <p>{message}</p>
+          </div>
         </div>
         <div className="message-info">
           <div className="message-person">

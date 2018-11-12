@@ -5,6 +5,7 @@ const Notification = styled.div`
   font-size: 11px;
   color: ${props => props.theme.colors.corduroy};
   text-align: center;
+  margin-bottom: 16px;
 `;
 
 const RoomNotification = ({ message }) => {
